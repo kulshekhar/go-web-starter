@@ -7,6 +7,13 @@ The setup uses:
 - Webpack (to process html, typescript and scss files and to automatically refresh the browser when any file changes)
 - Gin (to live-reload the go web app)
 
+During development, changing any of the following will refresh your app in the browser:
+
+- HTML templates
+- Typescript scripts
+- SCSS styles
+- Go source code (the refresh with this might be a bit slower compared to the other file types. This is because the go app is built and run after every change)
+
 The Go app resides in `src/app`, the Go templates in `templates`, the typescript scripts in `static/scripts` and the styles in `static/styles`
 
 The setup assumes that the root directory of this project is in the `GOPATH`.
