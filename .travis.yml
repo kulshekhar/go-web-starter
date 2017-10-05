@@ -8,10 +8,13 @@ before_script:
   - nvm install 8
   - nvm use 8
   - node -v
+  - yarn global add greenkeeper-lockfile@1
   - yarn
+  - greenkeeper-lockfile-update
 
 script:
   - yarn build
 
 after_script:
+  - greenkeeper-lockfile-upload
   - ls dist -al
