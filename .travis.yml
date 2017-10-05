@@ -3,14 +3,10 @@ language: go
 sudo: false
 
 go:
-  - 1.8
   - 1.9
-  - tip
 
 env:
   - TRAVIS_NODE_VERSION="8"
 
 script:
-  - yarn
-  - yarn build
-  - ls dist -al
+  - yarn && yarn build && ls dist -al
