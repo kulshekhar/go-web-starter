@@ -20,7 +20,7 @@ The setup assumes that the root directory of this project is in the `GOPATH`.
 
 The setup requires the following installed on the system:
 
-- Node.js, NPM and optionally, Yarn
+- Node.js (version 8 min), NPM and optionally, Yarn
 - Gin (the live-reload utility, not the framework)
 
 Intialize the project by executing:
