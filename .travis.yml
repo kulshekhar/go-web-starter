@@ -8,5 +8,6 @@ go:
   - tip
 
 script:
+  - yarn
   - yarn build
   - ls dist -al
