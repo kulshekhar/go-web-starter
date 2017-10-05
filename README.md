@@ -35,6 +35,8 @@ To start developing,
 yarn dev (or `npm run dev`, if you don't have Yarn installed)
 ```
 
+You can access your app at http://localhost:3000
+
 To build the project,
 
 ```
