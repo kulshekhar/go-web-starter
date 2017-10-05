@@ -1,0 +1,17 @@
+language: go
+
+go:
+  - 1.9
+  - tip
+
+before_script:
+  - nvm install 8
+  - nvm use 8
+  - node -v
+  - yarn
+
+script:
+  - yarn build
+
+after_script:
+  - ls dist -al
