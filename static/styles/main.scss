@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+div.container {
+  display: flex;
+  align-items: center;
+
+  font-size: 40px;
+  font-weight: bold;
+  color: blue;
+  font-style: italic;
+}
