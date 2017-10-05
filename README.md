@@ -1,5 +1,6 @@
 # go-web-starter
 
+[![Build Status](https://travis-ci.org/kulshekhar/go-web-starter.svg?branch=master)](https://travis-ci.org/kulshekhar/go-web-starter)
 [![Greenkeeper badge](https://badges.greenkeeper.io/kulshekhar/go-web-starter.svg)](https://greenkeeper.io/)
 
 This is a starter project for building web applications with Go, HTML, Typescript and SCSS.
