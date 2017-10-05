@@ -9,5 +9,6 @@ env:
   - TRAVIS_NODE_VERSION="8"
 
 script:
+  - nvm use
   - node -v
   - yarn && yarn build && ls dist -al
