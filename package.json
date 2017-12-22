@@ -12,7 +12,7 @@
     "build": "rm dist -rf ; npm run webpack:prod ; go build  -o dist/app src/app/main.go"
   },
   "devDependencies": {
-    "@types/browser-sync": "^0.0.37",
+    "@types/browser-sync": "^0.0.38",
     "@types/glob": "^5.0.32",
     "@types/node": "^8.0.32",
     "@types/webpack": "^3.0.13",
