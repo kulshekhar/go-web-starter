@@ -18,7 +18,7 @@
     "@types/webpack": "^4.0.0",
     "browser-sync": "^2.18.13",
     "browser-sync-webpack-plugin": "^2.0.0",
-    "concurrently": "^3.5.0",
+    "concurrently": "^4.0.1",
     "css-loader": "^1.0.0",
     "extract-loader": "^2.0.0",
     "file-loader": "^1.1.4",
