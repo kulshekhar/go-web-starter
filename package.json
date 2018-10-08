@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/browser-sync": "^0.0.42",
     "@types/glob": "^7.1.1",
-    "@types/node": "^10.0.3",
+    "@types/node": "^10.11.5",
     "@types/webpack": "^4.0.0",
     "browser-sync": "^2.18.13",
     "browser-sync-webpack-plugin": "^2.0.0",
